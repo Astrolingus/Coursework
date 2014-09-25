@@ -1,7 +1,7 @@
 // add icons
 $('.playspace').append('<i class="em em-person_with_blond_hair"></i>');
 $('.playspace').append('<i class="em em-woman"></i>');
-$('.playspace').append('<i class="em em-baby"></i>');
+
 
 // set the initial positions
 
@@ -32,6 +32,9 @@ $('.em-person_with_blond_hair').animate({
 //after 660ms...
 setTimeout(function() {
   //place baby
+
+  $('.playspace').append('<i class="em em-baby"></i>');
+
   $('.em-baby').css({
     top: 202,
     left: 196
