@@ -27,7 +27,7 @@ $('.em-person_with_blond_hair').animate({
 
 //after 660ms...
 setTimeout(function() {
-   ...move the woman
+   //...move the woman
   $('.woman').animate({
     left: 0
   }, 800, 'easeOutQuart');
