@@ -23,7 +23,7 @@ $('.em-woman').animate({
 }, 1000);
 
 $('.em-person_with_blond_hair').animate({
-  left: 195
+  left: 200
 }, 1000);
 
 
