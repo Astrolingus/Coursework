@@ -25,10 +25,11 @@ $('.em-person_with_blond_hair').animate({
 }, 1000);
 
 
+
 //after 660ms...
 setTimeout(function() {
    //...move the woman
   $('.em-woman').animate({
-    left: 0
+    left: 50
   }, 800, 'easeOutQuart');
 }, 660);
