@@ -13,8 +13,8 @@ $('.em-person_with_blond_hair').css({
 });
 
 $('.em-woman').css({
-  top: 210,
-  left: 100
+  top: 200,
+  right: 300
 });
 
 
