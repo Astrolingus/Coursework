@@ -20,7 +20,7 @@ $('.em-woman').css({
 
 // play!
 
-$('.em-person_with_blond_hair').animate({
+$('.em-woman').animate({
   left: 50
 }, 1000);
 
@@ -29,7 +29,7 @@ $('.em-person_with_blond_hair').animate({
 //after 660ms...
 setTimeout(function() {
    //...move the woman
-  $('.em-woman').animate({
+  $('.em-person_with_blond_hair').animate({
     left: 50
   }, 800, 'easeOutQuart');
 }, 660);
