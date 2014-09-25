@@ -24,14 +24,11 @@ $('.em-person_with_blond_hair').animate({
   left: 50
 }, 1000);
 
-$('.woman').animate({
-  left: 0
-}, 1000);
 
-// after 660ms...
-//setTimeout(function() {
-  // ...move the ball
-  //$('.fa-futbol-o').animate({
-    //left: 0
-  //}, 800, 'easeOutQuart');
-//}, 660);
+after 660ms...
+setTimeout(function() {
+   ...move the woman
+  $('.woman').animate({
+    left: 0
+  }, 800, 'easeOutQuart');
+}, 660);
