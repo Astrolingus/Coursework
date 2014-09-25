@@ -36,11 +36,8 @@ setTimeout(function() {
   $('.playspace').append('<i class="em em-baby"></i>');
 
   $('.em-baby').css({
-    top: 202,
+    top: 205,
     left: 196
   });
 
-  $('.em-baby').animate({
-    top: 210
-  }, 800, 'easeOutQuart');
 }, 660);
