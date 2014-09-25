@@ -14,7 +14,7 @@ $('.em-person_with_blond_hair').css({
 
 $('.em-woman').css({
   top: 200,
-  right: 300
+  left: 100
 });
 
 
@@ -25,7 +25,7 @@ $('.em-person_with_blond_hair').animate({
 }, 1000);
 
 $('.woman').animate({
-  left: 50
+  right: 50
 }, 1000);
 
 // after 660ms...
