@@ -19,11 +19,11 @@ $('.em-woman').css({
 // play!
 
 $('.em-woman').animate({
-  left: 195
+  left: 190
 }, 1000);
 
 $('.em-person_with_blond_hair').animate({
-  left: 197
+  left: 195
 }, 1000);
 
 
