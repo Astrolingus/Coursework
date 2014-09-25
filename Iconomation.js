@@ -21,7 +21,7 @@ $('.em-woman').css({
 // play!
 
 $('.em-woman').animate({
-  right: 50
+  left: -50
 }, 1000);
 
 
