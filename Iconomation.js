@@ -2,8 +2,6 @@
 $('.playspace').append('<i class="em em-person_with_blond_hair"></i>');
 $('.playspace').append('<i class="em em-woman"></i>');
 $('.playspace').append('<i class="em em-baby"></i>');
-$('.playspace').append('<i class="em em-necktie"></i>');
-$('.playspace').append('<i class="em em-dress"></i>');
 
 // set the initial positions
 
@@ -25,7 +23,7 @@ $('.em-woman').animate({
 }, 1000);
 
 $('.em-person_with_blond_hair').animate({
-  left: 195
+  left: 197
 }, 1000);
 
 
@@ -33,8 +31,13 @@ $('.em-person_with_blond_hair').animate({
 
 //after 660ms...
 setTimeout(function() {
-   //...move the woman
-  $('.em-person_with_blond_hair').animate({
-    left: 50
+  //place baby
+  $('.em-baby').css({
+    top: 202,
+    left: 196
+  });
+
+  $('.em-baby').animate({
+    top: 210
   }, 800, 'easeOutQuart');
 }, 660);
