@@ -36,7 +36,7 @@ setTimeout(function() {
   $('.playspace').append('<i class="em em-baby"></i>');
 
   $('.em-baby').css({
-    top: 210,
+    top: 225,
     left: 196
   });
 
