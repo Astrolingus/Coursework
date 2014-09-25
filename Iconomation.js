@@ -25,7 +25,7 @@ $('.em-person_with_blond_hair').animate({
 }, 1000);
 
 $('.woman').animate({
-  left: 50
+  left: 0
 }, 1000);
 
 // after 660ms...
