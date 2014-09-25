@@ -25,7 +25,7 @@ $('.em-person_with_blond_hair').animate({
 }, 1000);
 
 
-after 660ms...
+//after 660ms...
 setTimeout(function() {
    ...move the woman
   $('.woman').animate({
