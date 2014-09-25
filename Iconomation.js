@@ -24,6 +24,11 @@ $('.em-woman').animate({
   left: 195
 }, 1000);
 
+$('.em-person_with_blond_hair').animate({
+  left: 195
+}, 1000);
+
+
 
 
 //after 660ms...
