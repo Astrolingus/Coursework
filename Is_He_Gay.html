@@ -23,50 +23,54 @@
 	</div>
 
  	<div id="container"> <!--box all the images and subtitles-->
+     <!-- row 1 begins -->
 
- 		<!-- row 1 begins -->
 		<div class="imageHolder first" id="sound"> <!--the first image has the first class as well-->
 			<img class="thumb" width="300" height="300" src="sound.png">
-      <h2>Does he sound gay?</h2>
+      <div class="caption"><h2>Does he sound gay?</h2></div>
 		</div>
 
     <div class="imageHolder" id="look">
       <img class="thumb" width="300" height="300" src="tshirt.png">
-      <h2>Does he look gay?</h2>
+      <div class="caption"><h2>Does he look gay?</h2></div>
 		</div>
 
     <div class="imageHolder" id="interests">
       <img class="thumb" width="300" height="300" src="theatre.png">
-      <h2>Does he have gay hobbies?</h2>
+      <div class="caption"><h2>Does he have gay hobbies?</h2></div>
     </div>
-		<!-- row 1 ends -->
+<!-- row 1 ends -->
 
 
 		<!-- row 2 begins -->
-<div class="imageHolder first" id="girl"> <!--the first image has the first class as well-->
+
+
+<div class="imageHolder first" id="girl">
   <img class="thumb" width="300" height="300" src="girl.png">
-  <h2>Has he never shown interest in girls?</h2>
+  <div class="caption"><h2>Has he never shown interest in girls?</h2></div>
 </div>
 
 <div class="imageHolder" id="nice">
   <img class="thumb" width="300" height="300" src="dog.png">
-  <h2>Is he a really nice guy?</h2>
+  <div class="caption"><h2>Is he a really nice guy?</h2></div>
 </div>
 
 <div class="imageHolder" id="men">
   <img class="thumb" width="300" height="300" src="gay.png">
-  <h2>Has he hooked up with other guys?</h2>
+  <div class="caption"><h2>Has he hooked up with other guys?</h2></div>
 </div>
-		<!-- row 2 ends -->
+
+
+<!-- row 2 ends -->
 
 </div> <!--closes the container-->
 
 <!--the popup text and images-->
-<!--<div id="popup">
-  <img width="550" src=" ">
+<div class="popup" id="popupSound">
+  <h3>Are you sure? Maybe you're detecting an accent, or some speech idiosyncracy... In fact, there's no real conclusive evidence of gay mean sounding very different...</h3>
 </div>
 
-<div id="popup">
+<!--<div id="popup">
   <img width="550" src=" ">
 </div>
 
@@ -92,26 +96,26 @@
  </body> -->
 
 <!-- JS convention is to put script tags down here below body -->
-<!--<script>
+<script>
 var thediv;
 
 function init() {
-	thediv = document.getElementById('pop1');
+	thediv = document.getElementById('sound');
 	thediv.addEventListener('click', showPopUp);
 }
 
 function showPopUp() {
-	var popup = document.getElementById('popup');
+	var popup = document.getElementById('popupSound');
 	popup.style.display = 'block';
 	popup.addEventListener('click', hidePopUp);
 };
 
 function hidePopUp(){
-	var popup = document.getElementById('popup');
+	var popup = document.getElementById('popupSound');
 	popup.style.display = 'none';
 }
 
 window.addEventListener('load', init);
-</script>-->
+</script>
 
 </html>
