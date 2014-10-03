@@ -7,7 +7,7 @@ var keys; //stores all the keys
 function setup() {
 
 //create and size the canvas
-createCanvas(100,100);
+createCanvas(500,500);
 
   // Make a concordance object
   // This will hold every lettetter and its count
