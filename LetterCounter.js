@@ -6,8 +6,8 @@ var keys; //stores all the keys
 
 function setup() {
 
-//create and size the canvas
-createCanvas(500,500);
+//no canvas
+noCanvas();
 
   // Make a concordance object
   // This will hold every lettetter and its count
@@ -59,13 +59,4 @@ function clearDivs() {
   for (var i = 0; i < divs.length; i++) {
     divs[i].remove();
   }
-}
-
-function draw()
-{
-  for(var i=0;i<10;i++)
-    {
-      ellipse(i,i,55,55);
-    }
-
 }
