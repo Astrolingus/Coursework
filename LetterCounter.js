@@ -18,10 +18,6 @@ function setup() {
   // var stuff = loadStrings('data/test.txt', process);
 }
 
-function draw()
-{
-  ellipse(56,46,55,55)
-}
 
 function process(data) {
   var text;
@@ -61,4 +57,9 @@ function clearDivs() {
   for (var i = 0; i < divs.length; i++) {
     divs[i].remove();
   }
+}
+
+function draw()
+{
+  ellipse(56,46,55,55)
 }
