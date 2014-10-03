@@ -48,9 +48,10 @@ function process(data) {
   // Get the count for each letter and display
   for (var i = 0; i < keys.length; i++) {
     var count = concordance.getCount(keys[i]);
-    //var div = createDiv(keys[i] + ': '+ count);
-    //div.class('concordance');
-    text('hello world',10,10);
+    var div = createDiv(keys[i] + ': '+ count);
+    div.style.fontsize=count;
+    element.innerHTML = "I am active! :) Click me to change my style";
+
   }
 }
 
