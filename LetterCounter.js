@@ -1,11 +1,13 @@
 // Adapted from code by Daniel Shiffman
 
 
-var concordance;
+var concordance; //concordance object
+var keys; //stores all the keys
 
 function setup() {
 
-
+//create and size the canvas
+createCanvas(100,100);
 
   // Make a concordance object
   // This will hold every lettetter and its count
@@ -41,7 +43,7 @@ function process(data) {
   clearDivs();
 
   // Get all the letters
-  var keys = concordance.getKeys();
+  keys = concordance.getKeys();
 
   // Get the count for each letter and display
   for (var i = 0; i < keys.length; i++) {
@@ -61,5 +63,9 @@ function clearDivs() {
 
 function draw()
 {
-  ellipse(56,46,55,55)
+  for(var i=0;i<keys.length;i++)
+    {
+      ellipse(width/keys.length*i,height/keys.length*i,55,55);
+    }
+
 }
