@@ -5,8 +5,7 @@ var concordance;
 
 function setup() {
 
-  // No canvas
-  //noCanvas();
+
 
   // Make a concordance object
   // This will hold every lettetter and its count
@@ -21,8 +20,7 @@ function setup() {
 
 function draw()
 {
-
-  
+  ellipse(56,46,55,55)
 }
 
 function process(data) {
