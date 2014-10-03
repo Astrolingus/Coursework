@@ -19,6 +19,12 @@ function setup() {
   // var stuff = loadStrings('data/test.txt', process);
 }
 
+function draw()
+{
+
+  
+}
+
 function process(data) {
   var text;
 
