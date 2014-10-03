@@ -50,6 +50,7 @@ function process(data) {
     var count = concordance.getCount(keys[i]);
     var div = createDiv(keys[i] + ': '+ count);
     div.class('concordance');
+    div.style('fontsize',count+'pt');
   }
 }
 
