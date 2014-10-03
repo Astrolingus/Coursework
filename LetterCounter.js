@@ -63,7 +63,7 @@ function clearDivs() {
 
 function draw()
 {
-  for(var i=0;i<keys.length;i++)
+  for(var i=0;i<10;i++)
     {
       ellipse(i,i,55,55);
     }
