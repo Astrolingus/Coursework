@@ -65,7 +65,7 @@ function draw()
 {
   for(var i=0;i<keys.length;i++)
     {
-      ellipse(width/keys.length*i,height/keys.length*i,55,55);
+      ellipse(i,i,55,55);
     }
 
 }
