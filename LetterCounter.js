@@ -6,7 +6,7 @@ var concordance;
 function setup() {
 
   // No canvas
-  noCanvas();
+  //noCanvas();
 
   // Make a concordance object
   // This will hold every lettetter and its count
