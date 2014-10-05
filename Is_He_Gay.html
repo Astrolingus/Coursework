@@ -101,7 +101,9 @@
 var thediv;
 
 var hiddenBox = $( "#popUpSound" );
-$(hiddenBox).on("click",showPopUp());
+$(hiddenBox).on("click",function() {
+  alert( "hello");
+});
 
 /*
 function init() {
