@@ -100,7 +100,8 @@
 <script>
 var thediv;
 
-$('#popUpSound').on('click',showPopUp());
+var hiddenBox = $( "#popUpSound" );
+$(hiddenBox).on("click",showPopUp());
 
 /*
 function init() {
@@ -110,9 +111,7 @@ function init() {
 
 var showPopUp = function()
 {
-  var popup = document.getElementById('popUpSound');
-  popup.style.display = 'block';
-  popup.addEventListener('click', hidePopUp);
+hiddenBox.show();
 }
 
 var hidePopUp = function()
