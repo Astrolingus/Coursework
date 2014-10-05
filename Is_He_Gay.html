@@ -101,23 +101,38 @@
 var thediv;
 
 $('#popUpSound').on('click',showPopUp());
+
 /*
 function init() {
 	thediv = document.getElementById('sound');
 	thediv.addEventListener('click', showPopUp);
 }*/
 
+var showPopUp = function()
+{
+  var popup = document.getElementById('popUpSound');
+  popup.style.display = 'block';
+  popup.addEventListener('click', hidePopUp);
+}
+
+var hidePopUp = function
+{
+  var popup = document.getElementById('popUpSound');
+  popup.style.display = 'none';
+}
+/*
 function showPopUp() {
 	var popup = document.getElementById('popUpSound');
 	popup.style.display = 'block';
 	popup.addEventListener('click', hidePopUp);
 };
 
+
 function hidePopUp(){
 	var popup = document.getElementById('popUpSound');
 	popup.style.display = 'none';
 }
-/*
+
 window.addEventListener('load', init);
 */
 </script>
