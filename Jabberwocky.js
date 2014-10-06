@@ -5,7 +5,7 @@ var newpoem;
 //variables for generating new words
 var sylstart=['cab','sta','bli','gru','spe','schwa','not','vor','pla','phro']; //the start of the new word
 var sylmiddle=['ga','mo','pe','bi','chu','tho','ji','ca','tu','fe','la']; //middle bits of the new word
-var sylend=['ment','tion','lig','thy','wabe','sy','wock','ious','tum','fish'] //the end of the new word
+var sylend=['ment','tion','lig','thy','wabe','sy','wock','ious','tum','fish']; //the end of the new word
 
 //variable to hold the long words (the matches)
 var matches; // array of matches
@@ -42,10 +42,6 @@ function setup() {
     //now output the text as a div
     createDiv('Jabberwocky'+'br/'+newpoem);
 }
-
-
-
-
 
 
 //OTHER FUNCTIONS//
