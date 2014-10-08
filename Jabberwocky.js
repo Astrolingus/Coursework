@@ -22,7 +22,8 @@ function preload()
   newpoem=poem; //so now make newpoem==poem
 }
 
-function setup() {
+function setup()
+{
   noCanvas(); //remove the canvas
 
   //generate a list of nonsense words, one for each word of 5-letters or more in the poem
@@ -46,7 +47,8 @@ function setup() {
 
 //OTHER FUNCTIONS//
 //reformat the uploaded text
-function fileready(lines) {
+function fileready(lines)
+{
   // join() joins the elements of an array
   // Pass in a line break to retain formatting
   poem = lines.join('<br/>');
@@ -102,7 +104,8 @@ function countSyllables(word) //count the number of syllables in a word
     }
     //////////////////////////////////////////////////////////
     // Check if a char is a vowel (count y)
-    function isVowel(c) {
+    function isVowel(c)
+    {
       if      ((c == 'a') || (c == 'A')) { return true;  }
       else if ((c == 'e') || (c == 'E')) { return true;  }
       else if ((c == 'i') || (c == 'I')) { return true;  }

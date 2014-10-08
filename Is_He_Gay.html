@@ -99,31 +99,28 @@
 <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script>
 var thediv;
+var hiddenBox;
 
-var hiddenBox = $( "#popUpSound" );
-$(hiddenBox).on("click",function() {
-  alert( "hello");
-});
 
 /*
 $(hiddenBox).on("click",showPopUp());
 */
 
-/*
+
 function init() {
-	thediv = document.getElementById('sound');
-	thediv.addEventListener('click', showPopUp);
-}*/
+	 hiddenBox = $( "#popUpSound" );
+ $(hiddenBox).on("click",showPopUp());
+}
 
 var showPopUp = function()
 {
 hiddenBox.show();
+$(hiddenBox).on("click",hidePopUp());
 }
 
 var hidePopUp = function()
 {
-  var popup = document.getElementById('popUpSound');
-  popup.style.display = 'none';
+  hiddenBox.hide();
 }
 /*
 function showPopUp() {
