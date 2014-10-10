@@ -38,11 +38,11 @@ function setup() {
   var text = lines.join('\n');
 
   // N-gram length and maximum length
-  generator = new MarkovGenerator(6, 10000);
+  generator = new MarkovGenerator(4, 8000);
   generator.feed(text);
 
   // Make the button
-  var button = createButton('Write me a Frankenstein Frankenstein.');
+  var button = createButton('Write me some erotica');
   button.mousePressed(generate);
 
   // Make the output element
