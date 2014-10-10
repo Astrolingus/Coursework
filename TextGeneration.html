@@ -38,7 +38,7 @@ function setup() {
   var text = lines.join('\n');
 
   // N-gram length and maximum length
-  generator = new MarkovGenerator(4, 8000);
+  generator = new MarkovGenerator(8, 8000);
   generator.feed(text);
 
   // Make the button
