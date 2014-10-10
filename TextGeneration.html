@@ -1,10 +1,11 @@
-<!--associated with LetterCounter.js and Concordance.js and dropzone.js-->
+<!--Associated with Markov.js-->
 <!--Adapted from code by Daniel Shiffman-->
 
 <html>
 <head>
   <script language="javascript" type="text/javascript" src="//cdn.jsdelivr.net/p5.js/0.3.6/p5.min.js"></script>
   <script language="javascript" type="text/javascript" src="//cdn.jsdelivr.net/p5.js/0.3.6/addons/p5.dom.js"></script>
+  <script language="javascript" type="text/javascript" src="Markov.js"></script>
 
 </head>
 
@@ -15,7 +16,48 @@
   <p> </p>.
 
 <script>
+// Daniel Shiffman
+// Programming from A to Z, Fall 2014
+// https://github.com/shiffman/Programming-from-A-to-Z-F14
 
+// An array of lines from a text file
+var lines;
+// The Markov Generator object
+var generator;
+// An output element
+var output;
+
+// Preload some seed data
+function preload() {
+  lines = loadStrings('Jabberwocky.txt');
+}
+
+function setup() {
+  // Join everything together in one long string
+  // Keep carriage returns so these will show up in the markov generator
+  var text = lines.join('\n');
+
+  // N-gram length and maximum length
+  generator = new MarkovGenerator(6, 10000);
+  generator.feed(text);
+
+  // Make the button
+  var button = createButton('Write me a Frankenstein Frankenstein.');
+  button.mousePressed(generate);
+
+  // Make the output element
+  output = createP('');
+
+  noCanvas();
+}
+
+function generate() {
+  // Generate some text
+  var text = generator.generate();
+  // Put in HTML line breaks wherever there was a carriage return
+  text = text.replace(/\n/g,'<br/><br/>');
+  output.html(text);
+}
 </script>
 </body>
 </html>
