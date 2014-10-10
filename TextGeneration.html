@@ -13,71 +13,50 @@
 
   <h1>Text Generation</h1>
 
-  <p>
-    Input text:<br/>
-    <textarea id="input">Paste some text here.</textarea>
-  </p>
-
-  <p>level:<br/>
-    <input type="radio" name="level" value="char" checked="true" id='char'>by character<br/>
-    <input type="radio" name="level" value="word" id = 'word'>by word
-  </p>
-
-  <p>
-    order:
-    <select id = "order">
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5</option>
-      <option value="6">6</option>
-    </select>
-  </p>
-
-  <p>
-    length: <input type="text" size="2" id="length" value="500"></input>
-  </p>
-
-  <p>
-    <button id="generate">generate</button>
-  </p>
-
-  <p>Result:</p>
-  <p id ="markov"></p>
+  <p> </p>.
 
 <script>
 // Daniel Shiffman
 // Programming from A to Z, Fall 2014
 // https://github.com/shiffman/Programming-from-A-to-Z-F14
 
+// An array of lines from a text file
+var lines;
+// The Markov Generator object
+var generator;
+// An output element
+var output;
+
+// Preload some seed data
+function preload() {
+  lines = loadStrings('test_erotica.txt');
+}
+
 function setup() {
-  noCanvas();
-  // Assign the generate() function to the button
-  var button = getElement('generate');
+  // Join everything together in one long string
+  // Keep carriage returns so these will show up in the markov generator
+  var text = lines.join('\n');
+
+  // N-gram length and maximum length
+  generator = new MarkovGenerator(8, 8000);
+  generator.feed(text);
+
+  // Make the button
+  var button = createButton('Write me some erotica');
   button.mousePressed(generate);
+
+  // Make the output element
+  output = createP('');
+
+  noCanvas();
 }
 
 function generate() {
-  // Get the HTML elements we need
-  var output = getElement('markov');
-  var order = getElement('order');
-  var byWord = getElement('word');
-  var length = getElement('length');
-
-  // Create a generator with parameters
-  var generator = new MarkovGenerator(order.value(), length.value(), byWord.elt.checked);
-
-  // Get the input text
-  var input = getElement('input');
-
-  // Split it up into line breaks
-  var lines = input.value().split('\n');
-  // Feed in the lines
-  for (var i = 0; i < lines.length; i++) {
-    generator.feed(lines[i]);
-  }
-  // Show the resulting output
-  output.html(generator.generate());
+  // Generate some text
+  var text = generator.generate();
+  // Put in HTML line breaks wherever there was a carriage return
+  text = text.replace(/\n/g,'<br/><br/>');
+  output.html(text);
 }
 </script>
 </body>
