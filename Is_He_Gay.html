@@ -96,9 +96,7 @@
 </div>
  </body> -->
 
-<!-- JS convention is to put script tags down here below body -->
 <script>
-//var thediv;
 var soundButton, hiddenSound;
 
 //main method, sort of...
@@ -109,7 +107,8 @@ var init = function()
 
   soundButton = $('#sound');
   hiddenSound = $('#popUpSound');
-  // register all the event listeners at once
+  
+  // register all the event listeners
   soundButton.on('click', showPopUp);
   hiddenSound.on('click', hidePopUp);
 };
@@ -117,7 +116,7 @@ var init = function()
 
 var showPopUp = function()
 {
-alert("hello");
+console.log("hello");
 hiddenSound.show();
 }
 
