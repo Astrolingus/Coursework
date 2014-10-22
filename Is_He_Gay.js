@@ -1,11 +1,14 @@
 var soundButton, hiddenSound;
 
 //main method, sort of...
+
+console.log("hello");
+
 $(document).ready(init);
 
 var init = function()
 {
-console.log("hello");
+
   soundButton = $('#sound');
   hiddenSound = $('#popUpSound');
 
