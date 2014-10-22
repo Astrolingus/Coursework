@@ -99,24 +99,30 @@
 <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script>
 //var thediv;
-var hiddenBox;
+var soundButton, hiddenSound;
 
+//main method, sort of...
+$(document).on('ready', init);
 
-function init()
+var init = function()
 {
-	 hiddenBox = $( "#popUpSound" );
- $(hiddenBox).on("click",showPopUp());
-}
+  soundButton = $('#sound');
+  hiddenSound = $('#popUpSound');
+  // register all the event listeners at once
+  soundButton.on('click', showPopUp);
+  hiddenSound.on('click', hidePopUp);
+};
+
 
 var showPopUp = function()
 {
-hiddenBox.show();
-$(hiddenBox).on("click",hidePopUp());
+hiddenSound.show();
+$(hiddenSound).on('click',hidePopUp());
 }
 
 var hidePopUp = function()
 {
-  hiddenBox.hide();
+  hiddenSound.hide();
 }
 /*
 function showPopUp() {
