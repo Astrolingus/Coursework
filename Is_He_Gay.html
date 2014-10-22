@@ -10,6 +10,7 @@
   <meta name="description" content="Find out if he's gay!">
   <meta name="keywords" content="Sharang Biswas, ITP, Building for Learning">
   <link rel="stylesheet" href="Is_He_Gay.css" type="text/css">
+  <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
  </head>
 
  <body>
@@ -96,7 +97,6 @@
  </body> -->
 
 <!-- JS convention is to put script tags down here below body -->
-<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script>
 //var thediv;
 var soundButton, hiddenSound;
@@ -106,7 +106,7 @@ $(document).ready(init);
 
 var init = function()
 {
-  alert("hello");
+
   soundButton = $('#sound');
   hiddenSound = $('#popUpSound');
   // register all the event listeners at once
@@ -117,7 +117,7 @@ var init = function()
 
 var showPopUp = function()
 {
-
+alert("hello");
 hiddenSound.show();
 }
 
