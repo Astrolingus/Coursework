@@ -102,10 +102,11 @@
 var soundButton, hiddenSound;
 
 //main method, sort of...
-$(document).on('ready', init);
+$(document).ready(init);
 
 var init = function()
 {
+  alert("hello");
   soundButton = $('#sound');
   hiddenSound = $('#popUpSound');
   // register all the event listeners at once
@@ -116,8 +117,8 @@ var init = function()
 
 var showPopUp = function()
 {
+
 hiddenSound.show();
-$(hiddenSound).on('click',hidePopUp());
 }
 
 var hidePopUp = function()
