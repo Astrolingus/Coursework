@@ -1,11 +1,11 @@
 {
     "<start>": "<stanza> % <stanza> % <stanza> % <couplet>",
-    "<stanza>": "<first> <mid> <mid> <last> ",
-    "<couplet>": "<first> <last> ",
+    "<stanza>": "<first> % <mid> % <mid> % <last> % ",
+    "<couplet>": "<first> % <last> % ",
 
-    "<first>": "<clause> %",
-    "<mid>": "<conjunction> <clause> %",
-    "<last>": "xx | yy | zz %",
+    "<first>": "<clause> ",
+    "<mid>": "<conjunction> <clause> ",
+    "<last>": "xx | yy | zz ",
 
     "<clause>": "<subject> <predicate>",
     "<conjunction>":"and | or | because | then | so | while",
