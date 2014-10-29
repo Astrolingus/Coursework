@@ -8,7 +8,7 @@ var grammar;
 
 // Preload the JSON
 function preload() {
-  grammar = loadJSON('Grammar.json');
+  grammar = loadJSON('data/haiku.json');
 }
 
 
