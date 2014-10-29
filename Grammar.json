@@ -4,12 +4,15 @@
     "<couplet>": "<first> % <last> % ",
 
     "<first>": "<clause> ",
-    "<mid>": "<conjunction> <clause> ",
-    "<last>": "xx | yy | zz ",
+    "<mid>": "<conjunction> <clause> | <clause> ",
+    "<last>": "<clause>",
 
     "<clause>": "<subject> <predicate>",
     "<conjunction>":"and | or | because | then | so | while",
 
-    "<subject>": "you | I | your heart | ",
-    "<predicate>": "bled | felt | dried | masturbated"
+    "<subject>": "you | your <noun>| ",
+    "<predicate>": "<verb>",
+
+    "<noun>":"heart | mind | body | soul",
+    "<verb>":"bled | felt | dried | masturbated"
 }
