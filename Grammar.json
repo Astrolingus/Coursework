@@ -1,11 +1,15 @@
 {
     "<start>": "<stanza> % <stanza> % <stanza> % <couplet>",
     "<stanza>": "<first> <mid> <mid> <last> ",
-    "<couplet>": "<first> <last>",
-    "<first>": "aa | bb | cc ",
-    "<mid>": "drifting | purple | mountains | skyline | city | faces | toward | empty | buddhist | temple | japan | under | ocean | thinking | zooming | rushing | over | rice field | rising | falling | sparkling | snowflake",
-    "<last>": "sunrises | pheasant farms | people farms | samurai | juniper | fishing boats | far away | kimonos | evenings | peasant rain | sad snow fall",
+    "<couplet>": "<first> <last> ",
 
-    "<4>": "aluminum | yakitori | the east village | west of the sun |  chrysanthemums | cherry blossoms",
-    "<5>": "resolutional | non-elemental | rolling foothills rise | toward mountains higher | out over this country | in the springtime again"
+    "<first>": "<clause>",
+    "<mid>": "<conjunction> <clause>",
+    "<last>": "xx | yy | zz",
+
+    "<clause>": "<subject> <predicate>",
+    "<conjunction>":"and | or | because | then | so | while",
+
+    "<subject>": "you | I | your heart | ",
+    "<predicate>": "bled | felt | dried | masturbated"
 }
