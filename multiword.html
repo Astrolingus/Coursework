@@ -7,7 +7,7 @@
 
 <script>
 
-var lines;
+var lines; //the input raw results
 
 function preload()
 {
@@ -22,8 +22,14 @@ function setup()
 
 for (var i=0; i<lines.length; i++)
   {
-    //createP(lines[i]);
-console.log(i);
+    //for each word
+  var data =lines[i].split(":"); //holds the word and the number
+  var temptext=""; //holds the repeated words
+   for(var j=0; j<data[1];j++) //compare with the number, 2nd element of the data array
+     {
+       temptext+=data[0]+" | ";
+     }
+     createP(temptext);
   }
 
 }
