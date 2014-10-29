@@ -14,6 +14,7 @@ var data; //the input data
 var number; //the input number
 var temptext=''; //stores the long printout string
 
+
 function preload()
 {
   data=prompt("input in the format word:number"); //the input raw results
@@ -28,7 +29,7 @@ function setup()
 for (var i=0; i<number; i++)
   {
 //loop to print
-
+console.log("hi");
        temptext+=data.split(":")[0]+" | ";
 
      createP(temptext);
