@@ -1,23 +1,31 @@
 <html>
 <head>
-    <script language="javascript" type="text/javascript" src="//cdn.jsdelivr.net/p5.js/0.3.8/p5.min.js"></script>
-  <script language="javascript" type="text/javascript" src="//cdn.jsdelivr.net/p5.js/0.3.8/addons/p5.dom.js"></script>
+  <script language="javascript" type="text/javascript" src="//cdn.jsdelivr.net/p5.js/0.3.6/p5.min.js"></script>
+  <script language="javascript" type="text/javascript" src="//cdn.jsdelivr.net/p5.js/0.3.6/addons/p5.dom.js"></script>
 </head>
 <body>
 
 <script>
 
 var lines;
+
 function preload()
 {
+  console.log("hello");
   lines = loadStrings('erotica_results.txt');
 }
 
+function setup()
+{
+
+  noCanvas();
+  
 for (var i=0; i<lines.length; i++)
   {
     createP(lines[i]);
 
   }
 
+}
 </script>
 </body>
