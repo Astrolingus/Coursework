@@ -8,7 +8,7 @@ var grammar;
 
 // Preload the JSON
 function preload() {
-  grammar = loadJSON('Test_Grammar.json');
+  grammar = loadJSON('Grammar.json');
 }
 
 
