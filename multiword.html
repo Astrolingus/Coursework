@@ -10,11 +10,14 @@
 var lines;
 function preload()
 {
-  lines = loadStrings('files/spam.txt');
-
-  createP(lines);
+  lines = loadStrings('erotica_results.txt');
 }
 
+for (var i=0; i<lines.length; i++)
+  {
+    createP(lines[i]);
+
+  }
 
 </script>
 </body>
