@@ -10,7 +10,7 @@
     "<clause>": "<subject> <predicate>",
     "<conjunction>":"and | or | because | then | so | while",
 
-    "<subject>": "you | your <noun>| ",
+    "<subject>": "you | your <noun> ",
     "<predicate>": "<verb>",
 
     "<noun>":"heart | mind | body | soul",
