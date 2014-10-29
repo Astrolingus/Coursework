@@ -7,14 +7,14 @@
     "<mid>": "<coordinator> <clause> | <clause> ",
     "<last>": "<clause>",
 
-    "<clause>": "<subject> <predicate> | <expletive>",
+    "<clause>": "<subject> <predicate> | <exclamation>",
 
-    "<subject>": "you | they | <determinant> <noun> | <determinant> <noun> | <determinant> <descriptor> <noun>",
+    "<subject>": "you | they | we| <determinant> <noun> | <determinant> <noun> | <determinant> <descriptor> <noun>",
     "<predicate>": "<verbal> <object> |<verbal> <object> <adver-special> | was <descriptor> | felt <descriptor> ",
     "<verbal>":"<t-verb>  | <t-verb-indirect> <preposition> |<adverb> <t-verb> | <adverb> <t-verb-indirect> <preposition>",
 
 
-    "<object>":"it | him | you | me | them | we | <determinant> <descriptor> <noun> | <determinant> <descriptor> <noun> | <determinant> <descriptor> <noun> | <determinant> <descriptor> <noun> | <determinant> <descriptor> <noun> | <determinant> <descriptor> <noun> | <determinate> <noun> | <determinate> <noun> | <determinate> <noun> | <determinate> <noun> |<determinate> <noun> | <determinate> <noun>",
+    "<object>":"it | him | you | me | them | <determinant> <descriptor> <noun> | <determinant> <descriptor> <noun> | <determinant> <descriptor> <noun> | <determinant> <descriptor> <noun> | <determinant> <descriptor> <noun> | <determinant> <descriptor> <noun> | <determinate> <noun> | <determinate> <noun> | <determinate> <noun> | <determinate> <noun> |<determinate> <noun> | <determinate> <noun>",
 
     "<descriptor>":"<intensifier> <adjective> | <adjective> | <adjective>",
 
