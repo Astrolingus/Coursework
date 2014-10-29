@@ -38,6 +38,7 @@ function setup() {
 function generate() {
   // Make a DIV with the new sentence
   var expansion = cfree.get_expansion('<start>');
+  alert("hello");
   expansion = expansion.replace(/%/g,'<br/>');
   createP(expansion);
 }
