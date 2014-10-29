@@ -1,0 +1,37 @@
+<!-- Type in word:count, and it prints out the format I want  -->
+
+<html>
+<head>
+  <script language="javascript" type="text/javascript" src="//cdn.jsdelivr.net/p5.js/0.3.6/p5.min.js"></script>
+  <script language="javascript" type="text/javascript" src="//cdn.jsdelivr.net/p5.js/0.3.6/addons/p5.dom.js"></script>
+</head>
+<body>
+
+<script>
+
+
+var data; //the input data
+var number; //the input number
+var temptext=''; //stores the long printout string
+function setup()
+{
+
+  noCanvas();
+
+   data=prompt("input in the format word:number"); //the input raw results
+  number=data.split(":")[1]; //take the number
+
+}
+
+for (var i=0; i<number; i++)
+  {
+//loop to print
+
+       temptext+=data.split(":")[0]+" | ";
+
+     createP(temptext);
+  }
+
+}
+</script>
+</body>
