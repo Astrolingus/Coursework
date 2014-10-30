@@ -4,7 +4,7 @@
     "<couplet>": "<first> % <mid> % ",
 
     "<first>": "<clause> ",
-    "<mid>": "<coordinator> <clause> | <clause> | <exclamation> | <coordinator> <clause> | <clause> | <subordinator> <clause> | <subordinator> <clause> | <clause> ",
+    "<mid>": "<coordinator> <clause> | <clause> | <exclamation> | <coordinator> <clause> | <clause> | <coordinator> <clause> | <subordinator> <clause> | <clause> ",
 
     "<clause>": "<subject> <predicate>",
 
