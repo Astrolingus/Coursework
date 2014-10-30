@@ -1,11 +1,10 @@
 {
     "<start>": "<stanza> % <stanza> % <stanza> % <couplet>",
-    "<stanza>": "<first> % <mid> % <mid> % <last> % ",
-    "<couplet>": "<first> % <last> % ",
+    "<stanza>": "<first> % <mid> % <mid> % <mid> % ",
+    "<couplet>": "<first> % <mid> % ",
 
     "<first>": "<clause> ",
-    "<mid>": "<coordinator> <clause> | <clause> | <expletive> | <coordinator> <clause> | <clause> | <coordinator> <clause> | <clause> ",
-    "<last>": "<clause>",
+    "<mid>": "<coordinator> <clause> | <clause> | <expletive> | <coordinator> <clause> | <clause> | <subordinator> <clause> | <subordinator> <clause> | <clause> ",
 
     "<clause>": "<subject> <predicate>",
 
