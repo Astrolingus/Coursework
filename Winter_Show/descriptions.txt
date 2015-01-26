@@ -1,0 +1,48 @@
+ALABAMA	July 6, 2013, 21:10 - Hoover, AL 
+ARKANSAS	July 4, 2013, 21:30 - Mayflower, AR		
+ARIZONA	October 22, 2013 19:15 - Prescott, AZ	
+CALIFORNIA	October 30, 2013, 21:30 - Modesto, CA	
+COLORADO	October 11, 2013, 17:00 - Grand Junction, CO	
+CONNECTICUT	November 11, 2013, 17:00 - Fairfield, CT	
+DELAWARE	August 2, 2012, 21:00 - Newark, DE	
+FLORIDA	November 13, 2013, 18:00 - Fort Myers Beach, FL	
+GEORGIA	October 30, 2013, 10:00 - Lawrencewille, GA 
+IOWA	September 21, 2013, 19:30 - Bettendorf, IA	
+IDAHO	September 28,2013, 16:00 - Boise, ID	
+ILLINOIS	August 9, 2013, 21:30 - Lovington, IL	
+INDIANA	September 22, 2013, 20:47 - Redkey, IN
+KANSAS	October 26, 2013, 19:30 - Stilwell, KS	
+KENTUCKY	July 26, 2013, 03:00 - Frankfort, KY	
+LOUISIANA	August 5, 2013, 23:00 - Farmerville, LA	
+MASSACHUSSETS	October 27, 2013, 07:05 - Marston Mills, MA
+MARYLAND	October 2, 2013, 06:45 - Upper Marlboro, MD	
+MAINE	August 15, 2013, 11:00 - Clinton, ME
+MICHIGAN	October 11, 2013, 16:35 - Kalamazoo, MI	
+MINNESOTA	November 6, 2013, 10:00 - Austin, MN	
+MISSOURI	October 22, 2013, 01:00 - Wentzville, MO	 
+MISSISSIPI	August 4, 2013, 22:00 - Grenada, MS	
+MONTANA	August 8, 2013, 23:20 - Lolo, MT
+NORTH CAROLINA	October 23, 21:30 - Washington, NC	
+NORTH DAKOTA	June 18, 2012 07:00 - Belcourt, ND
+NEBRASKA	November 16, 2013, 21:43 - Bladen, NE	
+NEW HAMPSHIRE	October 25, 2011, 20:59 - Hanover, NH	
+NEW JERSEY	October 10, 2013, 00:00 - Clifton, NJ	
+NEW MEXICO	October 19, 2013, 23:00 - Albuquerque, NM	
+NEVADA		May 4 2013, 03:00 - Reno, NV
+NEW YORK	November 4, 2013, 21:50 - Niskayuna, NY	
+OHIO	November 12, 2013, 01:15 - Groveport, OH	
+OKLAHOMA	October 31, 21:00 - Del City, OK	
+OREGON	July 3, 2013, 00:00 - Albany, OR
+PENNSYLVANIA	October 20, 2013, 20:25 - Levittown, PA	
+RHODE ISLAND	September 1, 2013, 01:30 - North Providence, RI
+SOUTH CAROLINA	October 4, 2013, 02:59 - Lexingtion, SC	
+SOUTH DAKOTA	September 20, 2011, 06:33 - Sioux Falls, SD	
+TENESSEE	March 16, 2013, 08:35 - Knoxville, TN	
+TEXAS	October 16, 2013, 20:57 - Fort Worth, TX	
+UTAH	November 2, 2013, 01:25 - Ogde, UT
+VIRGINIA	October 24, 2013, 12:00 - Woodbridge, VA 	
+VERMONT	September 25, 2012, 22:00 - Starksboro, VT
+WASHINGTON	November 2, 2013, 07:00 - Naches, WA		
+WISCONSIN	November 19, 2013, 18:00 - Lodi, WI
+WEST VIRGINIA	August 16, 2013, 00:00 - West Union, WV	
+WYOMING	August 13, 2013, 20:30 - Rawlins, WY	
